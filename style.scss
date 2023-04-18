@@ -1,0 +1,124 @@
+// @mixin position{
+//     position: relative;
+//     left: -82px;
+// }
+
+body{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+}
+
+
+.contenedorHijo{
+    background: rgba(214, 185, 185, 0.3);
+    width: 390px;
+    height: 390px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+
+    h1{
+        text-align: center;
+        position: relative;
+        top: 10%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        opacity: 0.7;
+    }
+
+#r{
+    text-align: center;
+    margin-top: 355px;
+}
+
+#re{
+    color: rgb(226, 207, 207);
+}
+        
+}
+
+#hr{
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 400px;
+    width: 390px;
+}
+
+
+#input-1{
+    position: absolute;
+    top: 110px;
+    left: 15%;
+    width: 70%;
+    height: 12%;
+}
+
+#input-2{
+    position: absolute;
+    top: 185px;
+    left: 15%;
+    width: 70%;
+    height: 12%;
+}
+
+#icono{
+    color: aliceblue;
+    background-color: #3172af;
+    border-radius: 50%;
+    opacity: 50%;
+    position: absolute;
+    left: 42%;
+    top: -39px;
+}
+
+.enviar{
+    position: absolute;
+    left: 15%;
+    top: 66%;
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    height: 35px;
+    background-color: rgb(65, 65, 250);
+    color: aliceblue;
+    
+}
+
+.enviar:hover{
+    transform: translateY(-5px);
+    animation-timing-function: ease;
+    background-color: blue;
+    opacity: 60%;
+    color: white;
+    box-shadow: 0 5px 10px  rgba(255, 255, 255, 0.5);
+}
+
+#flexCheckDefault{
+    position: absolute;
+    left: 20%;
+    top: 80%;
+}
+
+.form-check-label{
+    position: absolute;
+    left: 20%;
+    top: 80%;
+}
+
+#contraseña{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    color: #0458a7;
+}
+
+.h1{
+    font-size: 5rem;
+    color: rgb(0, 204, 255);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20%;
+}
